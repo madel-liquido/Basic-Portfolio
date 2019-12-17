@@ -80,6 +80,29 @@ img {
 
 }
 
+#contact{
+    background-color: #ffffff;
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    width:960px;
+    margin:auto;
+    height:400px;
+
+}
+
+#portfolio{
+    background-color: #ffffff;
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    width:960px;
+    margin:auto;
+    height:400px;
+
+}
+
+
 p{
     text-align: left;
     border: 15px solid white;
