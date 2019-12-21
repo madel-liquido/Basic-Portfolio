@@ -3,22 +3,22 @@
 <html>
 <head>
     <title>Madel Liquido Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">            
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">            
 </head>
               
 <body>
 <header>
     <div class="header">
-    <div id="name"> Madel Liquido </div>
+        <div id="name"> Madel Liquido </div>
 
-    <div class = "header-right">
-    <nav>
-    <a href="index.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
+            <div class = "header-right">
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
     
-    </nav>
-    </div>
+                </nav>
+            </div>
 
     </div>
 </header>
@@ -27,16 +27,26 @@
 <section id="full">
     <section id="contact">
     <h2>Contact</h2>
-    <aside>
-    Will place Contact info here
-    </aside>
+        <div class="container">
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+                  
+                <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your full name..">
+                  
+                <label for="lname">Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+                  
+                  
+                 <label for="message">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write message.." style="height:200px"></textarea>
+                  
+                    <input type="submit" value="Submit">
+                  
+            </form>
+        </div>
     </section>
 </section> 
-
-
-<section id="topborder">
-        
-</section>          
+      
 
 <footer>
     Copyright &copy;
